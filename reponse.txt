@@ -14,7 +14,10 @@
    JOIN employee e ON l.employee_id = e.id
    LEFT JOIN team t ON e.team_id = t.id;
 
-4. Nombre d’employés par type de contrat
+4- Nombre d’employés par type de contrat
 -> SELECT contract_type, COUNT(*) AS total_employees
    FROM employee
    GROUP BY contract_type;
+
+5- Nombre d'employes en conge ajourd'hui
+-> 
